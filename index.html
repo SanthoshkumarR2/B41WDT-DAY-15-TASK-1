@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-light bg-secondary" id="title">
+            <h2 id="title">CUSTOMER DETAILS</h2>
+        </nav> 
+        <div class="tableDemo">
+          <table class="table" id="list">
+            <thead class="thead- bg-primary">
+              <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email Id</th>
+              </tr>
+            </thead>
+         </table>
+         <nav class="navbar navbar-dark bg-primary" id="navpage">
+            <ul class="pagination">
+              <li class="page-item" id="pagination"></li>
+             </ul>
+         </nav>
+        </div>
+    </div>
+   <script src="./script.js"></script>
+</body>
+
+</html>
